@@ -1,4 +1,13 @@
-const reverseString = function() {
+const reverseString = function(msg) {
+
+let splitmsg = msg.split("");
+
+let reversedsplit = splitmsg.reverse();
+
+let reversedmsg = reversedsplit.join("");
+
+return reversedmsg;
+
 
 };
 
